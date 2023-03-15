@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/virtual-coffee-podcast.rss"
+  to = "https://feeds.buzzsprout.com/1558601.rss"
+  status = 200
+  force = true
+  
+ [[redirects]]
+  from = "/"
+  to = "https://virtualcoffee.io"
