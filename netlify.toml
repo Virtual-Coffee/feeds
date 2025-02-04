@@ -3,6 +3,12 @@
   to = "https://virtualcoffee.io/feed/feed.rss"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/podcast-assets/*"
+  to = "https://virtualcoffeeio-assets.storage.googleapis.com/podcast-assets/:splat"
+  status = 200
+  force = true
   
  [[redirects]]
   from = "/"
